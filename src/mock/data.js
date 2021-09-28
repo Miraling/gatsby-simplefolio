@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Bailing Lan', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -28,38 +28,31 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project1.png',
+    title: 'Questionnaire platform based on React',
+    info: 'I worked as a front-end development member. I developed a questionnaire platform with my friends, using react, nodejs, mongodb, etc.',
+    info2:
+      'The main functional parts I realized are as follows: registration, login, new questionnaire, and edit questionnaire.',
+    url: 'https://www.lbling.top/questionnaire/',
+    repo: 'https://github.com/Miraling/questionnaire-survey-platform/tree/new2', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'project2.png',
+    title: 'Elimination game on Android platform developed in Java',
+    info: 'I participated in the production of this elimination game as a software tester. In this development, I fully experienced the development process of Android applications.',
+    info2:
+      'I use black box testing, white box testing and other methods to design suitable test cases to cover 100% of the function points.',
+    url: '#!',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Want to offer me a job opportunity or have other suggestions? Awesome!',
+  btn: 'Email Me',
+  email: 'lanbailing.ok@163.com',
 };
 
 // FOOTER DATA
@@ -67,28 +60,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/Miraling',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
