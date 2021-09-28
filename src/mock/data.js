@@ -12,15 +12,18 @@ export const heroData = {
   title: 'Hello, my name is',
   name: 'Bailing Lan',
   subtitle: "I'm a front-end developer",
-  cta: '',
+  cta: 'More About Me',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    'Hello, I am Lan Bailing, a girl living in Chengdu, Sichuan. You can call me Miranda or Mira.',
+  paragraphTwo:
+    'Now I am studying Computer Science and Technology at the University of Electronic Science and Technology of China.',
+  paragraphThree:
+    'I am looking for a job as a front-end engineer. There is my resume in English below, if you are interested, you can click to read it.',
   resume: 'https://www.cakeresume.com/bailing-lan', // if no resume, the button will not show up
 };
 

@@ -37,18 +37,9 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    'Hello, I am Lan Bailing, a girl living in Chengdu, Sichuan. You can call me Miranda or Mira.'}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    'Now I am studying Computer Science and Technology at the University of Electronic Science and Technology of China.  '}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    'I am looking for a job as a front-end engineer. There is my resume in English below, if you are interested, you can click to read it.'}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne || 'Hello'}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo || 'Now'}</p>
+                <p className="about-wrapper__info-text">{paragraphThree || 'I '}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
@@ -61,6 +52,16 @@ const About = () => {
                     </a>
                   </span>
                 )}
+                <span className="d-flex mt-3">
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="cta-btn cta-btn--resume"
+                    href="https://miraling.github.io/"
+                  >
+                    My Blog
+                  </a>
+                </span>
               </div>
             </Fade>
           </Col>
